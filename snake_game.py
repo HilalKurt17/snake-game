@@ -4,7 +4,8 @@ Created on Fri Dec  8 03:20:37 2023
 
 @author: Hilal Kurt
 """
-from turtle import Screen,Turtle;
+from turtle import Screen,Turtle,title;
+import turtle
 from writer_turtle import Writer
 from snake import Snake;
 from food import Food;
@@ -16,6 +17,7 @@ class Snake_Game():
         self.screen = Screen();
         self.screen.setworldcoordinates(-250, -250, 250, 250)
         self.screen.tracer(0)
+        turtle.title("hi")
         
         self.writer_turtle = Writer(); # create writer turtle object 
         self.snake = Snake(); # create snake object
