@@ -17,7 +17,7 @@ class Snake_Game():
         self.screen = Screen();
         self.screen.setworldcoordinates(-250, -250, 250, 250)
         self.screen.tracer(0)
-        turtle.title("hi")
+        turtle.title("SNAKE GAME")
         
         self.writer_turtle = Writer(); # create writer turtle object 
         self.snake = Snake(); # create snake object
